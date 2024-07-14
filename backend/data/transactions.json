@@ -1,0 +1,42 @@
+[
+  {
+    "description": "Groceries",
+    "amount": "1000",
+    "type": "income"
+  },
+  {
+    "description": "iPhone expense",
+    "amount": "3000",
+    "type": "expense"
+  },
+  {
+    "description": "babe",
+    "amount": "900",
+    "type": "income"
+  },
+  {
+    "description": "random",
+    "amount": "3000",
+    "type": "income"
+  },
+  {
+    "description": "random 2",
+    "amount": "3000",
+    "type": "income"
+  },
+  {
+    "description": "random 2",
+    "amount": "3000",
+    "type": "income"
+  },
+  {
+    "description": "Income",
+    "amount": "400",
+    "type": "income"
+  },
+  {
+    "description": "Income",
+    "amount": "400",
+    "type": "expense"
+  }
+]

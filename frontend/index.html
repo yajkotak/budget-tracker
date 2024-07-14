@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Budget Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Personal Budget Tracker</h1>
+    <div class="balance-bar" id="balance-bar">Total Balance: $0.00</div>
+    
+    <div class="form-container">
+      <form id="transaction-form">
+        <input type="text" id="description" placeholder="Description" required>
+        <input type="number" id="amount" placeholder="Amount" required>
+        <select id="type" required>
+          <option value="income">Income</option>
+          <option value="expense">Expense</option>
+        </select>
+        <button type="submit">Add Transaction</button>
+      </form>
+    </div>
+
+    <!-- New Controls -->
+    <div class="controls">
+      <button id="clear-entries" class="clear-button">Clear Entries</button>
+      <select id="view-options">
+        <option value="recent">Show Recent Transaction</option>
+        <option value="all">Show All Transactions</option>
+      </select>
+    </div>
+
+    <div class="transactions-container">
+      <ul id="transactions-list"></ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

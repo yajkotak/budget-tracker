@@ -1,0 +1,191 @@
+/* General Body Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #93E9BE; /* Background color */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Primary text color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Container Styling */
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #ffffff; /* Very subtle box color */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center align text */
+}
+
+/* Total Balance Bar */
+.balance-bar {
+    background: #e0f2f1; /* Very subtle background */
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #004d40; /* Complementary text color */
+}
+
+.balance-positive {
+    color: #4caf50; /* Soft green for positive balance */
+}
+
+.balance-negative {
+    color: #f44336; /* Soft red for negative balance */
+}
+
+/* Form Container */
+.form-container {
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+form input, form select {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+form input:focus, form select:focus {
+    border-color: #00796b;
+}
+
+/* Button Styling */
+form button {
+    background: #00796b; /* New main button color */
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    padding: 12px 20px; /* Adjusted padding for a sleeker look */
+    font-size: 16px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #004d40; /* Complementary hover color */
+}
+
+/* Social Sign-in Button Styles */
+button.signin {
+    background: #cccccc; /* Gray color for other sign-in buttons */
+    color: #ffffff;
+    padding: 12px 20px; /* Adjusted padding for consistency */
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    justify-content: center;
+}
+
+button.signin:hover {
+    background: #aaaaaa; /* Slightly darker gray for hover */
+}
+
+/* Button Blinking Animation */
+@keyframes blink-subtle-green {
+    0% { background-color: #00796b; }
+    50% { background-color: #b2dfdb; }
+    100% { background-color: #00796b; }
+}
+
+@keyframes blink-subtle-red {
+    0% { background-color: #00796b; }
+    50% { background-color: #ffcdd2; }
+    100% { background-color: #00796b; }
+}
+
+.blink-subtle-green {
+    animation: blink-subtle-green 1s linear;
+}
+
+.blink-subtle-red {
+    animation: blink-subtle-red 1s linear;
+}
+
+/* Transactions Container */
+.transactions-container {
+    background: #ffffff; /* Very subtle box color */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* New Controls */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 25px; /* Increased space between buttons */
+}
+
+.controls button, .controls select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.controls button {
+    background: #000000; /* Black color for the main button */
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.controls button:hover {
+    background: #333333; /* Slightly lighter black for hover */
+}
+
+.controls .clear-button {
+    background: #ffcccc; /* Subtle red for clear button */
+    color: #000000; /* Black text */
+}
+
+.controls .clear-button:hover {
+    background: #ff9999; /* Darker red for hover */
+}
+
+/* Transaction List Styling */
+#transactions-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#transactions-list li {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#transactions-list .income {
+    background-color: #e0f7e0;
+    color: #4caf50;
+}
+
+#transactions-list .expense {
+    background-color: #f7e0e0;
+    color: #f44336;
+}
