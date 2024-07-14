@@ -18,17 +18,17 @@ The Budget Tracker is a simple yet effective application designed to help users 
 - **Development Environment:** Visual Studio Code / Xcode / Any C++ IDE
 - **Libraries:** 
 
-##Contributions are welcome! 
+## Contributions are welcome! 
 
-##License
+## License
 
 - **This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Acknowledgments
+## Acknowledgments
 
 - **Inspired by the need to manage personal finances efficiently.
 - **Thanks to the open-source community for providing resources and support.
 
-##For any questions or feedback, feel free to reach out:
+## For any questions or feedback, feel free to reach out:
 
 - **GitHub: yajkotak
