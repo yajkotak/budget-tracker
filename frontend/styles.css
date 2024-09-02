@@ -3,8 +3,8 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     background-color: #93E9BE; /* Background color */
     margin: 0;
-    padding: 0;
-    color: #333; /* Primary text color */
+    padding: 20;
+    color: #00796b; /* Primary text color */
     display: flex;
     justify-content: center;
     align-items: center;
