@@ -6,7 +6,7 @@ The Budget Tracker is a simple yet effective application designed to help users 
 
 ## Screenshot
 
-![Screenshot](frontend/budget_tracker_screenshot.png)
+![Screenshot](frontend/budget_tracker.screenshot.png)
 
 ## Features
 
