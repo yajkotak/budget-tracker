@@ -4,6 +4,10 @@
 
 The Budget Tracker is a simple yet effective application designed to help users manage their finances by tracking income and expenses. This application allows users to gain insights into their spending habits and savings goals.
 
+## Screenshot
+
+![Screenshot](frontend/budget_tracker_screenshot.png)
+
 ## Features
 
 - **Add Income and Expenses:** Easily input your income sources and various expenses.
