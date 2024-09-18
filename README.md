@@ -33,6 +33,10 @@ The Budget Tracker is a simple yet effective application designed to help users 
 - Inspired by the need to manage personal finances efficiently.
 - Thanks to the open-source community for providing resources and support.
 
-## For any questions or feedback, feel free to reach out:
+## Contact
 
-- GitHub: yajkotak
+If you have any questions or feedback, you can reach me through the following methods:
+
+  <a href="https://www.linkedin.com/in/yajkotak" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Yaj_Kotak-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
